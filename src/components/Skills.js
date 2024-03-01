@@ -1,11 +1,8 @@
-import meter1 from "../assets/svg/meter1.svg";
-import meter2 from "../assets/svg/meter2.svg";
-import meter3 from "../assets/svg/meter3.svg";
+import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/svg/arrow1.svg";
-import arrow2 from "../assets/svg/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
+import DynamicMeter from "./Meter";
 
 export const Skills = () => {
   const responsive = {
@@ -38,27 +35,27 @@ export const Skills = () => {
                         <p>As an Applied Computer Science student, <br></br>I've developed a variety of technical and soft skills that make me a valuable addition to any team.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <DynamicMeter percentage={95} />
                                 <h5>Perseverance</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <DynamicMeter percentage={90} />
                                 <h5>Communication</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <DynamicMeter percentage={80} />
                                 <h5>Web Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <DynamicMeter percentage={85} />  
                                 <h5>Problem solving</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <DynamicMeter percentage={90} />
                                 <h5>Flexibility</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <DynamicMeter percentage={75} />
                                 <h5>Leader</h5>
                             </div>
                         </Carousel>
@@ -66,7 +63,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="Background" />
     </section>
   )
 }
