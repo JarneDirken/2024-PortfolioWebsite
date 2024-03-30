@@ -11,7 +11,7 @@ const Popup = ({ title, moreInfo, githubLink, liveWebsiteLink, images, onHide })
       </Modal.Header>
       <Modal.Body style={{ maxHeight: '60vh', overflowY: 'auto' }}>
       <div className='d-flex justify-content-between align-items-center'>
-            <p className='h4'>Description:</p>
+            {moreInfo && (<p className='h4'>Description:</p>)}<p></p>
             <div className='social-icon'>
                 {liveWebsiteLink && <a href={liveWebsiteLink} target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="Linked In" /></a>}
                 {githubLink && <a href={githubLink} target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="GitHub" /></a>}

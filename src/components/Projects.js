@@ -37,6 +37,10 @@ import webdesign from "../assets/img/projectImages/Webdesign1.png";
 import python from "../assets/img/projectImages/python.jpg";
 import Microservices1 from "../assets/img/projectImages/Microservices1.png";
 import Microservices2 from "../assets/img/projectImages/Microservices2.png";
+import ReactNative from "../assets/img/projects/reactNative.jpg";
+import ReactNative1 from "../assets/img/projectImages/ReactNative1.PNG";
+import ReactNative2 from "../assets/img/projectImages/ReactNative2.PNG";
+import ReactNative3 from "../assets/img/projectImages/ReactNative3.PNG";
 
 
 export const Projects = () => {
@@ -61,7 +65,7 @@ export const Projects = () => {
     },
     {
       title: "Project Angular",
-      description: "Final project ",
+      description: "Final project Angular",
       imgUrl: projAngular,
       moreInfo: " Our team embarked on developing a trip planner, initiating with research on existing services. We divided tasks among ourselves; one member created a front-end template using Angular, another developed the backend with .NET, while two others designed the user interface in Figma. <br><br>We implemented basic API functionalities and established a mock database for testing. Our project integrated Google's API for image retrieval and autocomplete features. We focused on developing various functionalities, including trip creation, activity management, viewer statistics, user authentication via Auth0, and profile management.<br><br>My role in this project was to fix everything with auth0 and work on the front- and backend. I learned a lot during this project especially my communication, teamwork and teamleading skills.",
       githubLink: "https://github.com/JarneDirken/2024-Angular_Project",
@@ -79,7 +83,7 @@ export const Projects = () => {
     },
     {
       title: "Project Mobile development",
-      description: "Design & Development",
+      description: "Design & Development flutter and dart",
       imgUrl: projMobileDev,
       moreInfo: "For this project we had to create a flutter application in dart that works on phones. We also needed to implement some sort of AR/VR to also make use of the camera.<br><br>We created a fitness application where you can check all the exercises by muscle group. You can add, delete and change muscle groups and exercises. We really payed attention to style the applicaiton professionally. As AR part we used the camera to scan an exercise in the fitness, after that a video will appear on how to do that exercise.<br><br> I grew most in Problem solving, figma and being creative. I really enjoyed working on this project. ",
       githubLink: "https://github.com/JarneDirken/2024-MobileDev_Project",
@@ -87,11 +91,12 @@ export const Projects = () => {
       images: [],
     },
     {
-      title: "Requirements Analysis",
-      description: "For this project, we had to create 1 large data model and use case diagram.",
-      imgUrl: projRequir,
-      moreInfo: "A group project for Requirements Analysis where our goal was solving all of the problems of our client and developing the plans for a future application that they will be using. We solved these issues by creating an accurate use case model and getting feedback from the client. With this use case model we could then create prototypes for the application.<br><br>My role in this project was creating prototypes and helping with the design of the use case model. Also during our meetings with the client, I asked questions to get a better understanding of the client's needs. During this project, I improved my communication skills by always communicating clearly both verbally and written.",
-      images: [requirement1, requirement2],
+      title: "Project react native",
+      description: "For this project I created a expense tracker I made a expense tracker with react native.",
+      imgUrl: ReactNative,
+      moreInfo: "I completed this project relatively quick. The main idea behind starting a project in react native was to improve my javascript skills aswell as my knowledge of creating mobile applications.<br><br>I did learn quite a lot in the process of creating this app and I am happy to share it with everyone.",
+      githubLink: "https://github.com/JarneDirken/2024-ReactNative_Project",
+      images: [ReactNative1, ReactNative2, ReactNative3],
     },
   ];
 
@@ -104,6 +109,13 @@ export const Projects = () => {
       githubLink: "https://github.com/JarneDirken/2022-Webdesign_Project",
       liveWebsiteLink: "https://hg1-webdesign-eindproject-eztyping.netlify.app/",
       images: [webdesign],
+    },
+    {
+      title: "Requirements Analysis",
+      description: "For this project, we had to create 1 large data model and use case diagram.",
+      imgUrl: projRequir,
+      moreInfo: "A group project for Requirements Analysis where our goal was solving all of the problems of our client and developing the plans for a future application that they will be using. We solved these issues by creating an accurate use case model and getting feedback from the client. With this use case model we could then create prototypes for the application.<br><br>My role in this project was creating prototypes and helping with the design of the use case model. Also during our meetings with the client, I asked questions to get a better understanding of the client's needs. During this project, I improved my communication skills by always communicating clearly both verbally and written.",
+      images: [requirement1, requirement2],
     },
     {
       title: "Project Python",
