@@ -64,11 +64,11 @@ export const Banner = () => {
                     </span>
                   </span>
                 </h1>
-                <p>
-                My name is Dirken Jarne, a 20 year old student at Thomas More. I live in Ravels With my parents and two little sisters. I love going to the gym, cooking meals and programming. Since my passion is programming, I chose to study Applied Computer Science at Thomas More in Geel.
-                </p>
-                <button onClick={() => console.log('connect')}>
+                <button onClick={() => undefined}>
                   <a className="text-decoration-none text-white" href="#projects">View my work <ArrowRightCircle size={25} /></a>
+                </button>
+                <button onClick={() => undefined} className="bannerButton">
+                  <a className="text-decoration-none text-white" href="#about">Get to know me <ArrowRightCircle size={25} /></a>
                 </button>
               </div>}
             </TrackVisibility>
@@ -77,7 +77,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+                  <img src={headerImg} alt="Header Img" className="bannerImage"/>
                 </div>}
             </TrackVisibility>
           </Col>

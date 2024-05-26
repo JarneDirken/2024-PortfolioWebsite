@@ -8,12 +8,14 @@ import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { Certificates } from "./components/Certificates";
 import { Internship } from './components/Internship';
+import { About } from './components/About';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Banner />
+      <About />
       <Skills />
       <Projects />
       <Certificates />

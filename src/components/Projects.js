@@ -51,7 +51,7 @@ export const Projects = () => {
       description: "Web Development & Marketing",
       imgUrl: dirkendigital,
       moreInfo: "DirkenDigital is my personal student venture, and I'm thrilled to embark on this endeavor. I believe that engaging in a student enterprise brings numerous advantages. Participating in this venture allows me to mature quickly, take control of my destiny, project a professional image, and enhance my communication and client interaction skills.<br><br> Overall, such an experience is bound to have a positive impact on various aspects of my life. The skills and knowledge I acquire during this journey will undoubtedly prove valuable in the future, whether in my professional career or when running my own business. This marks a significant step in the right direction for me.",
-      liveWebsiteLink: "https://www.dirkendigital.be",
+      liveWebsiteLink: "https://www.dirkendigital.be/cases",
       images: [showcaseDirkenDigital1, showcaseDirkenDigital2],
     },
     {

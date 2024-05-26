@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import colorSharp from "../assets/img/color-sharp.png"
+import colorSharp from "../assets/img/color-sharp2.png"
 import DynamicMeter from "./Meter";
 
 export const Skills = () => {
@@ -63,7 +63,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Background" />
+        <img className="background-image-right" src={colorSharp} alt="Background" />
     </section>
   )
 }
