@@ -348,18 +348,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 500px;
 }
 
-/* .image-container::after {
-  content: "";
-  position: absolute;
-  top: -10px;
-  left: -10px;
-  right: -10px;
-  width: calc(100% + 20px);
-  height: calc(100% + 20px);
-  border: 5px solid var(--border-color, #8c52ff);
-  z-index: 1;
-} */
-
 .background-image-left {
   position: absolute;
   left: 0;
@@ -367,6 +355,31 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
   height: auto;
   z-index: -1;
+}
+
+.aboutcontainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.aboutbutton {
+  position: relative;
+  display: inline-block;
+  padding: 4px;
+  color: white;
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  border-radius: 8px; /* Adjust as needed */
+  border: none;
+  cursor: pointer;
+}
+
+.aboutbutton span {
+  display: block;
+  background: #000; /* Background color of the button content */
+  padding: 1rem; /* Adjust padding as needed */
+  border-radius: 5px; /* Match with the inner border radius to look seamless */
+  position: relative;
+  z-index: 1; /* Ensure the text is above the pseudo-element */
 }
 
 /************ Skills Css ************/
@@ -433,7 +446,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
 }
 .project .nav.nav-pills .nav-item {
-  width: 49.99%;
+  width: 33.333333%;
 }
 
 .project .nav.nav-pills .nav-link {
@@ -472,13 +485,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 55px 0px 0px 55px;
 }
 .nav-link#projects-tabs-tab-second {
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 0 55px 55px 0;
-}
-/* .nav-link#projects-tabs-tab-second {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-} */
+}
 .nav-link#projects-tabs-tab-third {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
@@ -553,6 +562,33 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .custom-popup .modal-dialog {
   max-width: 70%;
 }
+
+.custom-popup .more-info-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-popup .more-info-content div {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.custom-popup .more-info-content span {
+  flex: 1;
+  font-weight: bold;
+}
+
+.custom-popup .more-info-content a {
+  color: black; 
+  text-decoration: none;
+}
+
+.custom-popup .more-info-content a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
 
 @media (max-width: 578px) {
   .custom-popup .modal-dialog {
@@ -635,18 +671,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 55px 55px 55px 55px;
 }
-/* .nav-link#projects-tabs-tab-second {
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 0 55px 55px 0;
-} */
-/* .nav-link#projects-tabs-tab-second {
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-} */
-/* .nav-link#projects-tabs-tab-third {
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 0 55px 55px 0;
-} */
+
+/************ Internship Css ************/
+.internship {
+  padding: 80px 0;
+  position: relative;
+  background-color: black;
+}
+.internship h2 {
+	font-size: 45px;
+	font-weight: 700;
+  text-align: center;
+}
+.internship p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  width: 70%;
+}
 
 /************ Contact Css ************/
 .contact {
