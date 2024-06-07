@@ -40,11 +40,11 @@ export const Internship = () => {
                     To deploy everything we created a simple docker file with docker compose.<br /><br />
                     <div className="internship-bottom">
                       <div>
-                          <div><span>Project scope:</span> <a href={scope} download="Project_Scope.pdf" aria-label="Project_Scope">Projectscope</a></div>
-                          <div><span>Project plan:</span> <a href={plan} download="Project_Plan.pdf" aria-label="Project_Plan">Projectplan</a></div>
-                          <div><span>Thesis:</span> <a href={thesis} download="Thesis.pdf" aria-label="Thesis">Thesis</a></div>
-                          <div><span>Reflection:</span> <a href={reflection} download="Reflection.pdf" aria-label="Reflection">Reflection</a></div>
-                          <div><span>Manual:</span> <a href={manual} download="Manual.pdf" aria-label="Manual">Manual</a></div>
+                        <div><span>Project scope:</span> <a href={scope} target="_blank" rel="noopener noreferrer" aria-label="Project_Scope">Project scope</a></div>
+                        <div><span>Project plan:</span> <a href={plan} target="_blank" rel="noopener noreferrer" aria-label="Project_Plan">Project plan</a></div>
+                        <div><span>Thesis:</span> <a href={thesis} target="_blank" rel="noopener noreferrer" aria-label="Thesis">Thesis</a></div>
+                        <div><span>Reflection:</span> <a href={reflection} target="_blank" rel="noopener noreferrer" aria-label="Reflection">Reflection</a></div>
+                        <div><span>Manual:</span> <a href={manual} target="_blank" rel="noopener noreferrer" aria-label="Manual">Manual</a></div>
                       </div>
                       <div className='social-icon'>
                         <a href="https://2024-internship-assignment.vercel.app/" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="Website" /></a>

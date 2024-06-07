@@ -31,10 +31,10 @@ export const About = () => {
                     I am excited about the future and the opportunities that lie ahead in my career.
                 </p>
                     <div className='aboutcontainer'>
-                        <a href={CV} download="CV_Jarne_Dirken.pdf" aria-label="Resume">
+                        <a href={CV} target="_blank" rel="noopener noreferrer" aria-label="Resume">
                             <button className="aboutbutton"><span>CV English</span></button>
                         </a>
-                        <a href={CV_FR} download="CV_Jarne_Dirken_FR.pdf" aria-label="Resume">
+                        <a href={CV_FR} target="_blank" rel="noopener noreferrer" aria-label="Resume">
                             <button className="aboutbutton"><span>CV Francais</span></button>
                         </a>
                     </div>
