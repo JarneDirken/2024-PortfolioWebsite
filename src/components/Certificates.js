@@ -13,20 +13,20 @@ export const Certificates = () => {
 
     const certificates = [
         {
+          title: "Complete WordPress Developer Course 2023 - Plugins & Themes",
+          description: "I did a full wordpress developer course.",
+          liveWebsiteLink: "https://www.udemy.com/certificate/UC-983aae4a-5802-4148-8ef8-a4a522a73451/",
+          imgUrl: udemy,
+          moreInfo: "",
+          images: [udemyCertificate]
+      },
+        {
             title: "Reply Cyber Security Challenge",
             description: "This was a 24h cyber security challenge.",
             imgUrl: cyberSeucirty,
             moreInfo: "",
             images: [cyberSecurityImage],
         },
-        {
-            title: "Complete WordPress Developer Course 2023 - Plugins & Themes",
-            description: "I did a full wordpress developer course.",
-            liveWebsiteLink: "https://www.udemy.com/certificate/UC-983aae4a-5802-4148-8ef8-a4a522a73451/",
-            imgUrl: udemy,
-            moreInfo: "",
-            images: [udemyCertificate]
-        }
     ];
 
     return (

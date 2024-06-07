@@ -1,7 +1,12 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Carousel } from "react-bootstrap";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import navIcon3 from '../assets/svg/nav-icon3.svg';
+import navIcon2 from '../assets/svg/nav-icon2.svg';
 import TrackVisibility from 'react-on-screen';
+import internship1 from "../assets/img/projectImages/internship1.png";
+import internship2 from "../assets/img/projectImages/internship2.jpg";
+import internship3 from "../assets/img/projectImages/internship3.jpg";
 // documents
 import thesis from "../assets/downloads/Thesis.pdf";
 import manual from "../assets/downloads/ManualUsers.pdf";
@@ -10,6 +15,7 @@ import plan from "../assets/downloads/Project_plan.pdf";
 import reflection from "../assets/downloads/Reflection.pdf";
 
 export const Internship = () => {
+  const images = [internship1, internship2, internship3];
   return (
     <section className="internship" id="internship">
       <Container>
@@ -30,14 +36,33 @@ export const Internship = () => {
                     I feel that I grew most in my communication skills, my ability to lead a team, and the art of thinking outside the box to come up with effective solutions.<br /><br />
                     Some technical aspects. We created the application in next.js 14 which is a full stack react based framework. 
                     We coded everything in typescript for type safety. As database we used postgreSQL. 
-                    For the authentication and cloud file storage for documents, photos, etc... 
-                    We used firebase. To deploy everything we created a simple docker file with docker compose.<br /><br />
-                    <div><span>Project scope:</span> <a href={scope} download="Project_Scope.pdf" aria-label="Project_Scope">Projectscope</a></div>
-                    <div><span>Project plan:</span> <a href={plan} download="Project_Plan.pdf" aria-label="Project_Plan">Projectplan</a></div>
-                    <div><span>Thesis:</span> <a href={thesis} download="Thesis.pdf" aria-label="Thesis">Thesis</a></div>
-                    <div><span>Reflection:</span> <a href={reflection} download="Reflection.pdf" aria-label="Reflection">Reflection</a></div>
-                    <div><span>Manual:</span> <a href={manual} download="Manual.pdf" aria-label="Manual">Manual</a></div>
+                    For the authentication and cloud file storage for documents, photos, we used firebase. 
+                    To deploy everything we created a simple docker file with docker compose.<br /><br />
+                    <div className="internship-bottom">
+                      <div>
+                          <div><span>Project scope:</span> <a href={scope} download="Project_Scope.pdf" aria-label="Project_Scope">Projectscope</a></div>
+                          <div><span>Project plan:</span> <a href={plan} download="Project_Plan.pdf" aria-label="Project_Plan">Projectplan</a></div>
+                          <div><span>Thesis:</span> <a href={thesis} download="Thesis.pdf" aria-label="Thesis">Thesis</a></div>
+                          <div><span>Reflection:</span> <a href={reflection} download="Reflection.pdf" aria-label="Reflection">Reflection</a></div>
+                          <div><span>Manual:</span> <a href={manual} download="Manual.pdf" aria-label="Manual">Manual</a></div>
+                      </div>
+                      <div className='social-icon'>
+                        <a href="https://2024-internship-assignment.vercel.app/" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="Website" /></a>
+                        <a href="https://github.com/JarneDirken/2024-InternshipAssignment" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="GitHub" /></a>
+                      </div>
+                    </div>
                   </p>
+                  <Carousel>
+                  {images.map((image, index) => (
+                      <Carousel.Item key={index} className="text-center">
+                      <img
+                          className="popupImages mx-auto"
+                          src={image}
+                          alt={`Slide ${index + 1}`}
+                      />
+                      </Carousel.Item>
+                  ))}
+                  </Carousel>
                 </div>
               }
             </TrackVisibility>

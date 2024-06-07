@@ -305,6 +305,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: -2rem;
 }
 
+@media (max-width:767px) {
+	.bannerImage {
+    margin-top: 1rem;
+  }
+}
+
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
@@ -446,7 +452,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
 }
 .project .nav.nav-pills .nav-item {
-  width: 33.333333%;
+  /* width: 33.333333%; */
+  width: 50%;
 }
 
 .project .nav.nav-pills .nav-link {
@@ -488,10 +495,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
-.nav-link#projects-tabs-tab-third {
+.nav-link#projects-tabs-tab-second {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
+/* .nav-link#projects-tabs-tab-third {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0 55px 55px 0;
+} */
 .proj-imgbx {
   position: relative;
   border-radius: 30px;
@@ -694,6 +705,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.5em;
   margin: 14px auto 30px auto;
   width: 70%;
+}
+
+.internship-bottom {
+  display: flex;
+  justify-content: space-between;
 }
 
 /************ Contact Css ************/
