@@ -48,6 +48,11 @@ import internship2 from "../assets/img/projectImages/internship2.jpg";
 import internship3 from "../assets/img/projectImages/internship3.jpg";
 import vue1 from "../assets/img/projectImages/vueproject.png";
 import vue2 from "../assets/img/projectImages/vueproject2.png";
+import mobile1 from "../assets/img/projectImages/mobiledev1.png";
+import mobile2 from "../assets/img/projectImages/mobiledev2.png";
+import mobile3 from "../assets/img/projectImages/mobiledev3.png";
+import mobile4 from "../assets/img/projectImages/mobiledev4.png";
+import mobile5 from "../assets/img/projectImages/mobiledev5.png";
 // documents
 import thesis from "../assets/downloads/Thesis.pdf";
 import manual from "../assets/downloads/ManualUsers.pdf";
@@ -116,7 +121,7 @@ export const Projects = () => {
       moreInfo: "For this project we had to create a flutter application in dart that works on phones. We also needed to implement some sort of AR/VR to also make use of the camera.<br><br>We created a fitness application where you can check all the exercises by muscle group. You can add, delete and change muscle groups and exercises. We really payed attention to style the applicaiton professionally. As AR part we used the camera to scan an exercise in the fitness, after that a video will appear on how to do that exercise.<br><br> I grew most in Problem solving, figma and being creative. I really enjoyed working on this project. ",
       githubLink: "https://github.com/JarneDirken/2024-MobileDev_Project",
       liveWebsiteLink: "https://www.youtube.com/watch?v=fZUhpyea7oM",
-      images: [],
+      images: [mobile1, mobile2, mobile3, mobile4, mobile5],
     },
     {
       title: "Project administration",

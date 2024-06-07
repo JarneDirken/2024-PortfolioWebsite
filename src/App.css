@@ -556,7 +556,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .popupImages {
-  width: 550px;
+  width: 100%;
+  max-width: 550px; /* Adjusts the maximum width */
+  height: auto; /* Maintains aspect ratio */
+  max-height: 500px; /* Adjusts the maximum height */
+  object-fit: contain; /* Ensures the image fits within the dimensions without stretching */
 }
 
 .custom-popup .modal-dialog {
