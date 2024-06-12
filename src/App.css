@@ -604,6 +604,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: black;
 }
 
+.svgPopup {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.itemPopup {
+  display: flex;
+  align-items: center;
+}
+
+.wrapitemspopup {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 @media (max-width: 578px) {
   .custom-popup .modal-dialog {

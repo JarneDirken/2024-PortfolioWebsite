@@ -15,6 +15,7 @@ import projpython from "../assets/img/projects/python.png";
 import projdevops from "../assets/img/projects/devops.jpeg";
 import projenterprise from "../assets/img/projects/microservices.jpg";
 import projectvuejs from "../assets/img/projects/vuejs.jpg";
+import projectchess from "../assets/img/projects/chess.jpg";
 // project images
 import showcaseDirkenDigital1 from "../assets/img/projectImages/DirkenDigital1.png";
 import showcaseDirkenDigital2 from "../assets/img/projectImages/DirkenDigital2.png";
@@ -47,6 +48,7 @@ import mobile2 from "../assets/img/projectImages/mobiledev2.png";
 import mobile3 from "../assets/img/projectImages/mobiledev3.png";
 import mobile4 from "../assets/img/projectImages/mobiledev4.png";
 import mobile5 from "../assets/img/projectImages/mobiledev5.png";
+import chess from "../assets/img/projectImages/chessProject.png";
 
 export const Projects = () => {
 
@@ -87,13 +89,13 @@ export const Projects = () => {
       images: [mobile1, mobile2, mobile3, mobile4, mobile5],
     },
     {
-      title: "Project administration",
-      description: "Full stack web application with vue.js, node.js and mongoDB as database",
-      imgUrl: projectvuejs,
-      moreInfo: "This is a side project I picked up during my internship in my last year of university. I always wanted to create an administration system for myself so that I don't have to keep track of everything on paper or in file explorer. This way, it's all online and easy to access. I know there are already plenty of similar systems that exist, but I thought, why not try to create one myself.<br><br>This is thus a work in progress. For technology, I use Vue.js because I wanted to learn Vue. For the backend, I use Node with Express.js and for now Auth0 for authentication. I will switch to Firebase when I have the time to further work on the project because I find Firebase easier to work with than Auth0 and I will have access to file storage, which I have already used. For the database, I use MongoDB because I haven't used it often and this way it will be a new experience.<br><br>Note: I have not found a way to host Node and Express.js with MongoDB online, so the backend doesn't work yet.",
-      githubLink: "https://github.com/JarneDirken/2024-AdministrationProject",
-      liveWebsiteLink: "https://2024-administration-project.vercel.app/",
-      images: [vue1, vue2],
+      title: "Project chess analysis",
+      description: "Chess analysis web application in react with javascript",
+      imgUrl: projectchess,
+      moreInfo: "This is a side project I started after my internship in my final year of university. I began playing chess last year, and it quickly became a hobby I really enjoy. I love playing online on chess.com, but there's one thing I dislike: after finishing a game, I can only review one game per day for free. To review more, you have to pay. That's how I came up with this idea.<br><br>I know this has been done before, but I wanted to embark on this journey myself. By creating this application, I'm broadening my experience with React and JavaScript. I also use an AI called Stockfish to determine whether a move is the best. Additionally, there's an evaluation bar that indicates the likelihood of each side winning.<br><br>Note: This is an ongoing project, and I plan to add more features later on. Some examples with what I might want to add: <br><ul><li>Highlighting good moves</li><li>Highlighting bad moves</li><li>Additional ways to import a game</li><li>An opening reservoir that tells you what opening you're playing</li><li>Arrows indicating what the best move would have been</li></ul>",
+      githubLink: "https://github.com/JarneDirken/2024-chessReview",
+      liveWebsiteLink: "https://2024-chess-review.vercel.app/",
+      images: [chess],
     },
     {
       title: "Project react native",
@@ -106,6 +108,15 @@ export const Projects = () => {
   ];
 
   const projectsSecond = [
+    {
+      title: "Project administration",
+      description: "Full stack web application with vue.js, node.js and mongoDB as database",
+      imgUrl: projectvuejs,
+      moreInfo: "This is a side project I picked up during my internship in my last year of university. I always wanted to create an administration system for myself so that I don't have to keep track of everything on paper or in file explorer. This way, it's all online and easy to access. I know there are already plenty of similar systems that exist, but I thought, why not try to create one myself.<br><br>This is thus a work in progress. For technology, I use Vue.js because I wanted to learn Vue. For the backend, I use Node with Express.js and for now Auth0 for authentication. I will switch to Firebase when I have the time to further work on the project because I find Firebase easier to work with than Auth0 and I will have access to file storage, which I have already used. For the database, I use MongoDB because I haven't used it often and this way it will be a new experience.<br><br>Note: I have not found a way to host Node and Express.js with MongoDB online, so the backend doesn't work yet.",
+      githubLink: "https://github.com/JarneDirken/2024-AdministrationProject",
+      liveWebsiteLink: "https://2024-administration-project.vercel.app/",
+      images: [vue1, vue2],
+    },
     {
       title: "Project PHP",
       description: "Web application in php",

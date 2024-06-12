@@ -2,6 +2,7 @@ import React from 'react';
 import { Modal, Carousel } from 'react-bootstrap';
 import navIcon3 from '../assets/svg/nav-icon3.svg';
 import navIcon2 from '../assets/svg/nav-icon2.svg';
+import doc from '../assets/svg/icons8-document.svg';
 
 const Popup = ({ title, moreInfo, githubLink, liveWebsiteLink, images, onHide }) => {
   return (
@@ -10,6 +11,33 @@ const Popup = ({ title, moreInfo, githubLink, liveWebsiteLink, images, onHide })
         <Modal.Title className='display-6'>{title}</Modal.Title>
       </Modal.Header>
       <Modal.Body style={{ maxHeight: '60vh', overflowY: 'auto' }}>
+        {/* <div className='wrapitemspopup'>
+          <div className='itemPopup'>
+            <img src={doc} className='svgPopup'/>
+            <span>Project:&nbsp;</span>
+            <span>Business</span>
+          </div>
+          <div className='itemPopup'>
+            <img src={doc} className='svgPopup'/>
+            <span>Client:&nbsp;</span>
+            <span>Myself</span>
+          </div>
+          <div className='itemPopup'>
+            <img src={doc} className='svgPopup'/>
+            <span>Client:&nbsp;</span>
+            <span>Business</span>
+          </div>
+          <div className='itemPopup'>
+            <img src={doc} className='svgPopup'/>
+            <span>Client:&nbsp;</span>
+            <span>Business</span>
+          </div>
+          <div className='itemPopup'>
+            <img src={doc} className='svgPopup'/>
+            <span>Client:&nbsp;</span>
+            <span>Business</span>
+          </div>
+        </div> */}
       <div className='d-flex justify-content-between align-items-center'>
             {moreInfo && (<p className='h4'>Description:</p>)}<p></p>
             <div className='social-icon'>
