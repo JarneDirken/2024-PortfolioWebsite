@@ -43,6 +43,7 @@ import ReactNative2 from "../assets/img/projectImages/ReactNative2.PNG";
 import ReactNative3 from "../assets/img/projectImages/ReactNative3.PNG";
 import vue1 from "../assets/img/projectImages/vueproject.png";
 import vue2 from "../assets/img/projectImages/vueproject2.png";
+import vue3 from "../assets/img/projectImages/vueproject3.png";
 import mobile1 from "../assets/img/projectImages/mobiledev1.png";
 import mobile2 from "../assets/img/projectImages/mobiledev2.png";
 import mobile3 from "../assets/img/projectImages/mobiledev3.png";
@@ -115,7 +116,7 @@ export const Projects = () => {
       moreInfo: "This is a side project I picked up during my internship in my last year of university. I always wanted to create an administration system for myself so that I don't have to keep track of everything on paper or in file explorer. This way, it's all online and easy to access. I know there are already plenty of similar systems that exist, but I thought, why not try to create one myself.<br><br>This is thus a work in progress. For technology, I use Vue.js because I wanted to learn Vue. For the backend, I use Node with Express.js and for now Auth0 for authentication. I will switch to Firebase when I have the time to further work on the project because I find Firebase easier to work with than Auth0 and I will have access to file storage, which I have already used. For the database, I use MongoDB because I haven't used it often and this way it will be a new experience.<br><br>Note: I have not found a way to host Node and Express.js with MongoDB online, so the backend doesn't work yet.",
       githubLink: "https://github.com/JarneDirken/2024-AdministrationProject",
       liveWebsiteLink: "https://2024-administration-project.vercel.app/",
-      images: [vue1, vue2],
+      images: [vue1, vue2, vue3],
     },
     {
       title: "Project PHP",
