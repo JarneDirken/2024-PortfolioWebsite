@@ -58,6 +58,22 @@ export const Skills = () => {
                                 <DynamicMeter percentage={75} />
                                 <h5>Leader</h5>
                             </div>
+                            <div className="item">
+                                <DynamicMeter percentage={80} />
+                                <h5>React</h5>
+                            </div>
+                            <div className="item">
+                                <DynamicMeter percentage={65} />
+                                <h5>Java</h5>
+                            </div>
+                            <div className="item">
+                                <DynamicMeter percentage={85} />
+                                <h5>Html, Css</h5>
+                            </div>
+                            <div className="item">
+                                <DynamicMeter percentage={70} />
+                                <h5>C#</h5>
+                            </div>
                         </Carousel>
                     </div>
                 </div>
