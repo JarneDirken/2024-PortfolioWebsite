@@ -50,6 +50,13 @@ import mobile3 from "../assets/img/projectImages/mobiledev3.png";
 import mobile4 from "../assets/img/projectImages/mobiledev4.png";
 import mobile5 from "../assets/img/projectImages/mobiledev5.png";
 import chess from "../assets/img/projectImages/chessProject.png";
+import ContentTracker1 from "../assets/img/projects/ContentList1.png";
+import contentTrackerImage1 from "../assets/img/projectImages/ContentTracker1.png";
+import contentTrackerImage2 from "../assets/img/projectImages/ContentTracker2.png";
+import contentTrackerImage3 from "../assets/img/projectImages/ContentTracker3.png";
+import contentTrackerImage4 from "../assets/img/projectImages/ContentTracker4.png";
+import contentTrackerImage5 from "../assets/img/projectImages/ContentTracker5.png";
+import contentTrackerImage6 from "../assets/img/projectImages/ContentTracker6.png";
 
 export const Projects = () => {
 
@@ -99,6 +106,18 @@ export const Projects = () => {
       images: [chess],
     },
     {
+      title: "Content tracker",
+      description: "Track your favorite films and series with my next.js app",
+      imgUrl: ContentTracker1,
+      moreInfo: "This is another side project I started after my internship in my final year of university. This project is based on a website called 'MyAnimeList' which does almost the same thing. <br> The point of this application is to be able to register which films you saw, want to see, what score you gave them, add favorites, etc... The app is made with next.js 14, postgreSQL as database and firebase for the authentication and file storage.<br><br>Note: The app is not yet finished I do my best to keep adding features and removing bugs. Things I intend to change:<ul><li>When not logged in save your movie, create account and automatically save the movie</li><li>Being able to add friends and 'compete' with each other</li><li>Add more movies</li><li>Make the series tab work</li></ul>",
+      githubLink: "https://github.com/JarneDirken/2024-MyContentList",
+      liveWebsiteLink: "https://2024-my-content-list.vercel.app/",
+      images: [contentTrackerImage1, contentTrackerImage2, contentTrackerImage3, contentTrackerImage4, contentTrackerImage5, contentTrackerImage6],
+    },
+  ];
+
+  const projectsSecond = [
+    {
       title: "Project react native",
       description: "Expense tracker in react native",
       imgUrl: ReactNative,
@@ -106,9 +125,6 @@ export const Projects = () => {
       githubLink: "https://github.com/JarneDirken/2024-ReactNative_Project",
       images: [ReactNative1, ReactNative2, ReactNative3],
     },
-  ];
-
-  const projectsSecond = [
     {
       title: "Project administration",
       description: "Full stack web application with vue.js, node.js and mongoDB as database",
@@ -144,15 +160,6 @@ export const Projects = () => {
       githubLink: "https://github.com/JarneDirken/2022-2DPythonGame",
       liveWebsiteLink: "https://www.youtube.com/watch?v=seunVV9bQvY",
       images: [python],
-    },
-    {
-      title: "Project DevOps",
-      description: "Windows Forms application with a SQLite Database",
-      imgUrl: projdevops,
-      moreInfo: "In this uncomplicated project, my goal was to develop an application in C# for my second year bachelor. I opted for a simplified version of the Memory Test found in Human Benchmark. The initial steps involved crafting the overall layout and ensuring the functionality of the application. I diligently documented the entire process along with a brief demonstration, and the link to the GitHub repository is provided (in Dutch). Additionally, a concise demo is available at the conclusion of the readme file. You should be able to add data to the database and retrieve it. In my case, the high score of the best user. We also needed to make a .exe file with GitHub Actions.<br><br>During this project, I've improved my C# and problem-solving skills. I also learned a thing or two about storing data in a database and retrieving it. This project helped me get an idea of how to start a project. Start with research, write everything down in steps, and start working step by step. It also helped me get a basic understanding of C#.",
-      githubLink: "https://github.com/JarneDirken/2023-DevOps_Project",
-      liveWebsiteLink: "https://www.youtube.com/watch?v=VxAt9o7RVyo",
-      images: [],
     },
     {
       title: "Project Enterprise Development",

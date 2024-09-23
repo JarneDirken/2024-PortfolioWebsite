@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Motivated Student", "Full Stack developer"];
+  const toRotate = ["Web Developer", "Application Developer", "Full Stack Developer"];
   const period = 2000;
 
   const tick = useCallback(() => {

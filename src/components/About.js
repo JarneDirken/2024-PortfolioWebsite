@@ -19,10 +19,10 @@ export const About = () => {
                 </Col>
                 <Col xs={12} md={6} xl={6}>
                 <p className='aboutText'>
-                    My name is Dirken Jarne, a 20-year-old student at Thomas More University Geel.
+                    My name is Dirken Jarne, a 21-year-old graduated, looking for work.
                     I live in Ravels, Antwerp, Belgium with my parents and two younger sisters.
                     I love going to the gym, cooking meals, reading, and programming.
-                    Since my passion is programming, I chose to study Applied Computer Science at Thomas More in Geel.
+                    Since my passion is programming, I chose to study Applied Computer Science at Thomas More in Geel where I achieved my bachelors degree in computer science.
                     <br></br><br></br>
                     I'm eager to put my knowledge and experience to the test, preferably as a full-stack programmer.
                     I believe with my experience so far from school as well as from my own student company, I will be a valuable asset to any company.
