@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Image from "../assets/img/aboutImage.jpg";
 import CV from '../assets/downloads/CV_Jarne_Dirken.pdf';
 import CV_FR from '../assets/downloads/CV_Jarne_Dirken_FR.pdf';
+import CV_NL from '../assets/downloads/CV_Jarne_Dirken_NL.pdf';
 
 export const About = () => {
   return (
@@ -33,6 +34,9 @@ export const About = () => {
                     <div className='aboutcontainer'>
                         <a href={CV} target="_blank" rel="noopener noreferrer" aria-label="Resume">
                             <button className="aboutbutton"><span>CV English</span></button>
+                        </a>
+                        <a href={CV_NL} target="_blank" rel="noopener noreferrer" aria-label="Resume">
+                            <button className="aboutbutton"><span>CV Nederlands</span></button>
                         </a>
                         <a href={CV_FR} target="_blank" rel="noopener noreferrer" aria-label="Resume">
                             <button className="aboutbutton"><span>CV Francais</span></button>

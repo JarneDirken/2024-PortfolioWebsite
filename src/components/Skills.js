@@ -63,7 +63,7 @@ export const Skills = () => {
                                 <h5>React</h5>
                             </div>
                             <div className="item">
-                                <DynamicMeter percentage={65} />
+                                <DynamicMeter percentage={70} />
                                 <h5>Java</h5>
                             </div>
                             <div className="item">

@@ -57,6 +57,19 @@ import contentTrackerImage3 from "../assets/img/projectImages/ContentTracker3.pn
 import contentTrackerImage4 from "../assets/img/projectImages/ContentTracker4.png";
 import contentTrackerImage5 from "../assets/img/projectImages/ContentTracker5.png";
 import contentTrackerImage6 from "../assets/img/projectImages/ContentTracker6.png";
+import mobileAndWebApp from "../assets/img/projects/MobileAndWebApp.png";
+import NextJs from "../assets/img/projects/nextjs.png";
+import sdApp1 from "../assets/img/projectImages/sdApp1.png";
+import sdApp2 from "../assets/img/projectImages/sdApp2.png";
+import sdApp3 from "../assets/img/projectImages/sdApp3.png";
+import sdApp4 from "../assets/img/projectImages/sdApp4.png";
+import sdApp5 from "../assets/img/projectImages/sdApp5.png";
+import sdApp6 from "../assets/img/projectImages/sdApp6.png";
+import sdApp7 from "../assets/img/projectImages/sdApp7.png";
+import sdApp8 from "../assets/img/projectImages/sdApp8.png";
+import PlanningApp1 from "../assets/img/projectImages/PlanningApp1.png";
+import PlanningApp2 from "../assets/img/projectImages/PlanningApp2.png";
+import PlanningApp3 from "../assets/img/projectImages/PlanningApp3.png";
 
 export const Projects = () => {
 
@@ -97,6 +110,23 @@ export const Projects = () => {
       images: [mobile1, mobile2, mobile3, mobile4, mobile5],
     },
     {
+      title: "Mobile- and web app for a client (DirkenDigital)",
+      description: "Development of a mobile and web application in react and react native",
+      imgUrl: mobileAndWebApp,
+      moreInfo: "For this project, I had to create a mobile and web application in React and React Native for a client. The goal was to develop a platform that allows users to manage their materials that are stored in their workbus. Every team leader has to verify each month if the materials are still in the bus and if they are still in good condition.<br><br>For this project, I had to learn a lot about React Native and how to use it. I also had to learn how to use Firebase for the authentication and file storage. I really enjoyed working on this project because I learned a lot and I was able to create a professional application.<br><br>As for the technology, I used React for the web application and React Native for the mobile application. I also used Firebase for the authentication and file storage. As for the api I used a .netAPI that is hosted on render. For the database I opted for postgreSQL. The web application is hosted on Vercel and the mobile application is available on the Google Play- & Apple Store.",
+      images: [sdApp1, sdApp2, sdApp8, sdApp7, sdApp6, sdApp5, sdApp4, sdApp3],
+    },
+    {
+      title: "Work shift scheduler (DirkenDigital)",
+      description: "Development of a shift scheduler web application in next.js",
+      imgUrl: NextJs,
+      moreInfo: "For this project, I had to create a shift scheduler web application in Next.js for a client. The goal was to develop a platform that allows users to manage their work shifts and schedule them in an easy way.<br><br>For this project, I had to learn a lot about Next.js and how to use it. I also had to learn how to use Firebase for the authentication and file storage. I really enjoyed working on this project because I learned a lot and I was able to create a professional application.<br><br>As for the technology, I used Next.js for the web application and Firebase for the authentication and file storage. For the database I opted for postgreSQL. The web application is hosted on Vercel.",
+      images: [PlanningApp1, PlanningApp2, PlanningApp3],
+    },
+  ];
+
+  const projectsSecond = [
+    {
       title: "Project chess analysis",
       description: "Chess analysis web application in react with javascript",
       imgUrl: projectchess,
@@ -114,9 +144,6 @@ export const Projects = () => {
       liveWebsiteLink: "https://2024-my-content-list.vercel.app/",
       images: [contentTrackerImage1, contentTrackerImage2, contentTrackerImage3, contentTrackerImage4, contentTrackerImage5, contentTrackerImage6],
     },
-  ];
-
-  const projectsSecond = [
     {
       title: "Project react native",
       description: "Expense tracker in react native",
@@ -124,15 +151,6 @@ export const Projects = () => {
       moreInfo: "I completed this project relatively quickly as a side project during my last year in university. The main idea behind starting a project in React Native was to improve my JavaScript skills as well as my knowledge of creating mobile applications.<br><br>I did learn quite a lot in the process of creating this app, and I am happy to share it with everyone.",
       githubLink: "https://github.com/JarneDirken/2024-ReactNative_Project",
       images: [ReactNative1, ReactNative2, ReactNative3],
-    },
-    {
-      title: "Project administration",
-      description: "Full stack web application with vue.js, node.js and mongoDB as database",
-      imgUrl: projectvuejs,
-      moreInfo: "This is a side project I picked up during my internship in my last year of university. I always wanted to create an administration system for myself so that I don't have to keep track of everything on paper or in file explorer. This way, it's all online and easy to access. I know there are already plenty of similar systems that exist, but I thought, why not try to create one myself.<br><br>This is thus a work in progress. For technology, I use Vue.js because I wanted to learn Vue. For the backend, I use Node with Express.js and for now Auth0 for authentication. I will switch to Firebase when I have the time to further work on the project because I find Firebase easier to work with than Auth0 and I will have access to file storage, which I have already used. For the database, I use MongoDB because I haven't used it often and this way it will be a new experience.<br><br>Note: I have not found a way to host Node and Express.js with MongoDB online, so the backend doesn't work yet.",
-      githubLink: "https://github.com/JarneDirken/2024-AdministrationProject",
-      liveWebsiteLink: "https://2024-administration-project.vercel.app/",
-      images: [vue1, vue2, vue3],
     },
     {
       title: "Project PHP",
@@ -153,15 +171,6 @@ export const Projects = () => {
       images: [webdesign],
     },
     {
-      title: "Project Python",
-      description: "2D game using pycharm in python",
-      imgUrl: projpython,
-      moreInfo: "This project from my first year in university is another interesting one to discuss. For an elective project in one of our subjects, we were tasked with choosing a project related to what we had learned that year. Having a keen interest in game development and having studied Python, I decided to embark on creating a 2D game using Python.<br><br>Embarking on this project with modest expectations, after extensive research and deliberation, I settled on a simple yet engaging concept. In the game, you play as a witch who can shoot arrows at falling aliens using her staff. Each hit on an alien increases your score, and the game ends if an alien touches you.<br><br>I believe working on this game significantly enhanced my Python skills, offering a practical application of the programming concepts we had learned.",
-      githubLink: "https://github.com/JarneDirken/2022-2DPythonGame",
-      liveWebsiteLink: "https://www.youtube.com/watch?v=seunVV9bQvY",
-      images: [python],
-    },
-    {
       title: "Project Enterprise Development",
       description: "Java backend achitecture of the basis of microservices.",
       imgUrl: projenterprise,
@@ -172,15 +181,26 @@ export const Projects = () => {
     },
   ];
 
-  // const projectsThird = [
-  //   {
-  //     title: "",
-  //     description: "",
-  //     imgUrl: projRequir,
-  //     moreInfo: "",
-  //     images: [],
-  //   },
-  // ];
+  const projectsThird = [
+    {
+      title: "Project Python",
+      description: "2D game using pycharm in python",
+      imgUrl: projpython,
+      moreInfo: "This project from my first year in university is another interesting one to discuss. For an elective project in one of our subjects, we were tasked with choosing a project related to what we had learned that year. Having a keen interest in game development and having studied Python, I decided to embark on creating a 2D game using Python.<br><br>Embarking on this project with modest expectations, after extensive research and deliberation, I settled on a simple yet engaging concept. In the game, you play as a witch who can shoot arrows at falling aliens using her staff. Each hit on an alien increases your score, and the game ends if an alien touches you.<br><br>I believe working on this game significantly enhanced my Python skills, offering a practical application of the programming concepts we had learned.",
+      githubLink: "https://github.com/JarneDirken/2022-2DPythonGame",
+      liveWebsiteLink: "https://www.youtube.com/watch?v=seunVV9bQvY",
+      images: [python],
+    },
+    {
+      title: "Project administration",
+      description: "Full stack web application with vue.js, node.js and mongoDB as database",
+      imgUrl: projectvuejs,
+      moreInfo: "This is a side project I picked up during my internship in my last year of university. I always wanted to create an administration system for myself so that I don't have to keep track of everything on paper or in file explorer. This way, it's all online and easy to access. I know there are already plenty of similar systems that exist, but I thought, why not try to create one myself.<br><br>This is thus a work in progress. For technology, I use Vue.js because I wanted to learn Vue. For the backend, I use Node with Express.js and for now Auth0 for authentication. I will switch to Firebase when I have the time to further work on the project because I find Firebase easier to work with than Auth0 and I will have access to file storage, which I have already used. For the database, I use MongoDB because I haven't used it often and this way it will be a new experience.<br><br>Note: I have not found a way to host Node and Express.js with MongoDB online, so the backend doesn't work yet.",
+      githubLink: "https://github.com/JarneDirken/2024-AdministrationProject",
+      liveWebsiteLink: "https://2024-administration-project.vercel.app/",
+      images: [vue1, vue2, vue3],
+    },
+  ];
 
   return (
     <section className="project" id="projects">
@@ -200,9 +220,9 @@ export const Projects = () => {
                     <Nav.Item>
                       <Nav.Link eventKey="second">Tab 2</Nav.Link>
                     </Nav.Item>
-                    {/* <Nav.Item>
+                    <Nav.Item>
                       <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                    </Nav.Item> */}
+                    </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
@@ -233,7 +253,7 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    {/* <Tab.Pane eventKey="third">
+                    <Tab.Pane eventKey="third">
                     <Row>
                         {
                           projectsThird.map((project, index) => {
@@ -246,7 +266,7 @@ export const Projects = () => {
                           })
                         }
                       </Row>
-                    </Tab.Pane> */}
+                    </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
               </div>}
